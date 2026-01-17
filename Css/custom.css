@@ -16,3 +16,8 @@
 p {
   font-size: 14px;
 }
+.grid_cards {
+  display: grid;
+  grid-template-columns: 4;
+  grid-template-rows: 2;
+}

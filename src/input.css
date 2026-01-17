@@ -29,6 +29,9 @@
     font-size: 14px;
     color: var(--color-paragraphColor);
   }
+  span {
+    font-size: 14px;
+  }
   .containers {
     @apply max-w-330 mx-auto py-4 px-4 sm:px-2;
   }
