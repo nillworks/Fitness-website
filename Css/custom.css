@@ -21,3 +21,6 @@ p {
   grid-template-columns: 4;
   grid-template-rows: 2;
 }
+.heightSetCustom {
+  height: 300px;
+}

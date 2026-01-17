@@ -36,13 +36,13 @@
         <ul class="items-center gap-5 border border-[#313131] rounded-full px-3 py-3 hidden sm:flex">
           <li><a class="bg-primaryColor text-white font-semibold px-5 py-2 rounded-full" href="#">Home</a></li>
           <li><a href="#"
-              class="text-white font-medium text-md hover:bg-primaryColor hover:px-5 hover:py-2 hover:rounded-full hover:transition hover:duration-300">Service</a>
+              class="text-white font-medium text-md hover:bg-primaryColor px-5 hover:py-2 hover:rounded-full hover:transition hover:duration-300">Service</a>
           </li>
           <li><a href="#"
-              class="text-white font-medium text-md hover:bg-primaryColor hover:px-5 hover:py-2 hover:rounded-full hover:transition hover:duration-300">Contact</a>
+              class="text-white font-medium text-md hover:bg-primaryColor px-5 hover:py-2 hover:rounded-full hover:transition hover:duration-300">Contact</a>
           </li>
           <li><a href="#"
-              class="text-white font-medium text-md hover:bg-primaryColor hover:px-5 hover:py-2 hover:rounded-full hover:transition hover:duration-300">About</a>
+              class="text-white font-medium text-md hover:bg-primaryColor px-5 hover:py-2 hover:rounded-full hover:transition hover:duration-300">About</a>
           </li>
         </ul>
 
@@ -124,7 +124,7 @@
   <main>
 
     <!-- Change Your Habits Section -->
-    <section id="" class="my-10 bg-black text-white">
+    <section id="Change_habits_area" class="my-10 bg-black text-white">
       <div class="containers">
 
         <!-- Title And Subtitle -->
@@ -195,7 +195,7 @@
 
 
     <!-- Run an Extra Mile Easily Section -->
-    <Section id="">
+    <Section id="Run_area">
       <div class="containers">
 
         <div
@@ -315,9 +315,87 @@
 
 
 
-    <!--  -->
-    <Section id="">
+    <!-- Meet Our Team Section -->
+    <Section id="Our_meet_area">
       <div class="containers">
+
+        <!-- Title And Subtitle -->
+        <div class="text-white text-center flex flex-col items-center justify-center gap-3 mb-10">
+          <h2 class="text-3xl font-extrabold">Meet Our Team</h2>
+          <p class="text-paragraphColor">We believe fitness should be accessible to everyone, everywhere, <br
+              class="hidden sm:block">
+            regardless of
+            income or access to
+            a gym.
+          </p>
+        </div>
+
+        <!-- Our Team Images -->
+        <div class="bg-gray-600/30 rounded-lg p-3 grid grid-cols-1 items-center gap-7 
+        sm:grid-cols-2 lg:grid-cols-3">
+
+          <!-- items 1  -->
+          <div class="relative heightSetCustom">
+            <img src="images/trainer1.png" alt="img" class="rounded-md w-full h-full object-cover">
+            <!-- Name and Details -->
+            <div class="absolute bottom-5 left-4 text-white">
+              <h2 class="text-lg font-semibold">Jerome Bell</h2>
+              <span class="text-paragraphColor">Trainer</span>
+            </div>
+          </div>
+
+          <!-- items 2  -->
+          <div class="relative heightSetCustom">
+            <img src="images/trainer2.png" alt="img" class="rounded-md w-full h-full object-cover">
+            <!-- Name and Details -->
+            <div class="absolute bottom-5 left-4 text-white">
+              <h2 class="text-lg font-semibold">Cameron Williamson</h2>
+              <span class="text-paragraphColor">Trainer</span>
+            </div>
+          </div>
+
+          <!-- items 3  -->
+          <div class="relative heightSetCustom">
+            <img src="images/trainer3.png" alt="img" class="rounded-md w-full h-full object-cover">
+            <!-- Name and Details -->
+            <div class="absolute bottom-5 left-4 text-white">
+              <h2 class="text-lg font-semibold">Darrell Steward</h2>
+              <span class="text-paragraphColor">Trainer</span>
+            </div>
+          </div>
+
+          <!-- items 4  -->
+          <div class="relative heightSetCustom">
+            <img src="images/trainer4.png" alt="img" class="rounded-md w-full h-full object-cover">
+            <!-- Name and Details -->
+            <div class="absolute bottom-5 left-4 text-white">
+              <h2 class="text-lg font-semibold">Dianne Russell</h2>
+              <span class="text-paragraphColor">Trainer</span>
+            </div>
+          </div>
+
+          <!-- items 5  -->
+          <div class="relative heightSetCustom">
+            <img src="images/trainer5.png" alt="img" class="rounded-md w-full h-full object-cover">
+            <!-- Name and Details -->
+            <div class="absolute bottom-5 left-4 text-white">
+              <h2 class="text-lg font-semibold">Cody Fisher</h2>
+              <span class="text-paragraphColor">Trainer</span>
+            </div>
+          </div>
+
+          <!-- items 6  -->
+          <div class="relative heightSetCustom">
+            <img src="images/trainer6.png" alt="img" class="rounded-md w-full h-full object-cover">
+            <!-- Name and Details -->
+            <div class="absolute bottom-5 left-4 text-white">
+              <h2 class="text-lg font-semibold">Theresa Webb</h2>
+              <span class="text-paragraphColor">Trainer</span>
+            </div>
+          </div>
+
+        </div>
+
 
       </div>
     </Section>
@@ -326,9 +404,45 @@
 
 
   <!-- Footer Area  -->
-  <footer id="footer_area">
-    <div class="containers">
+  <footer id="footer_area" class="mt-20">
+    <div
+      class="containers bg-gray-500/30 rounded-md text-white flex flex-col items-center text-center gap-10 sm:flex-row sm:flex-wrap lg:flex-nowrap sm:items-center sm:justify-center lg:grid lg:grid-cols-3">
 
+      <!-- Left Footer Content -->
+      <div class="text-center">
+        <h2 class="font-bold text-primaryColor text-3xl sm:text-3xl lg:text-4xl">Fitness</h2>
+        <p>We believe fitness should be accessible to everyone, everywhere, regardless of income or access to a gym.
+          With hundreds
+          of professional workouts.</p>
+      </div>
+
+      <!-- Center Footer Content -->
+      <div class="text-paragraphColor flex flex-col gap-3">
+        <h2 class="text-3xl font-semibold text-white">Get Started</h2>
+        <ul>
+          <li>Service</li>
+          <li>Contact Us</li>
+          <li>Affiliate Program</li>
+          <li>About Us</li>
+        </ul>
+      </div>
+
+      <!-- Right Footer Content -->
+      <div class="text-paragraphColor flex flex-col gap-3">
+        <h2 class="text-3xl font-semibold text-white">Get Started</h2>
+        <ul>
+          <li>Fitness</li>
+          <li>Platform</li>
+          <li>Workout Libary</li>
+          <li>App Design</li>
+        </ul>
+      </div>
+
+
+    </div>
+    <div class="containers bg-gray-500/30 rounded-md border-t border-paragraphColor text-center">
+
+      <small class="pt-8 text-paragraphColor">All right reserved @Fitness 2026</small>
     </div>
   </footer>
 
