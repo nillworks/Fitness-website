@@ -25,6 +25,10 @@
     max-width: 100%;
     height: auto;
   }
+  p {
+    font-size: 14px;
+    color: var(--color-paragraphColor);
+  }
   .containers {
     @apply max-w-330 mx-auto py-4 px-4 sm:px-2;
   }
