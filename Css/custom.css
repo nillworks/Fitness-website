@@ -1,0 +1,18 @@
+/* #header_area {
+  background: linear-gradient(
+    180deg,
+    rgba(17.41, 17.41, 17.41, 1) 0%,
+    rgba(119.41, 119.41, 119.41, 0) 100%
+  );
+} */
+
+.borders {
+  border: 1px solid white;
+  transition: 0.5s all ease-in-out;
+}
+.borders:hover {
+  border: none;
+}
+p {
+  font-size: 14px;
+}

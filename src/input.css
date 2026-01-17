@@ -1,0 +1,31 @@
+@import 'tailwindcss';
+
+@theme {
+  --color-primaryColor: #e6533c;
+  /* --color-srcColor: rgba(34, 34, 34, 1); */
+  --color-headingColor: #ffffff;
+  --color-paragraphColor: rgba(255, 255, 255, 0.5);
+
+  /* Background Color */
+  --color-bgPrimaryColor: rgba(34, 34, 34, 1);
+
+  /* Google Font */
+  --font-primaryFont: 'Inter', sans-serif;
+}
+
+@layer utilities {
+  html,
+  body {
+    @apply overflow-x-hidden;
+  }
+  body {
+    @apply font-primaryFont bg-black;
+  }
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+  .containers {
+    @apply max-w-330 mx-auto py-4 px-4 sm:px-2;
+  }
+}
