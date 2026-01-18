@@ -24,8 +24,8 @@
    via-[#1c1c1c] to-[#0b0b0b]">
 
     <!-- Navigation Menu -->
-    <nav>
-      <div class="containers mx-auto flex items-center justify-between py-4 px-2 lg:px-5">
+    <nav class="">
+      <div class="containers mx-auto flex items-center justify-between py-4 px-2  lg:px-5">
 
         <!-- Logo -->
         <div>
@@ -33,7 +33,10 @@
         </div>
 
         <!-- Navigation Menu -->
-        <ul class="items-center gap-5 border border-[#313131] rounded-full px-3 py-3 hidden sm:flex">
+        <ul id="NavigationMenu"
+          class="fixed top-0 z-50 flex flex-col items-center gap-5 border border-[#313131]  px-3 py-3
+       justify-center text-left left-0 w-screen bg-teal-200/50 backdrop-blur-sm
+        transition-transform translate-x-full duration-300 h-screen sm:rounded-full sm:flex sm:static sm:h-auto sm:w-auto sm:flex-row sm:bg-transparent sm:translate-x-0">
           <li><a class="bg-primaryColor text-white font-semibold px-5 py-2 rounded-full" href="#">Home</a></li>
           <li><a href="#"
               class="text-white font-medium text-md hover:bg-primaryColor px-5 hover:py-2 hover:rounded-full hover:transition hover:duration-300">Service</a>
@@ -47,10 +50,17 @@
         </ul>
 
         <!-- Btn Menu -->
-        <div class="sm:hidden">
-          <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
-            stroke="currentColor" class="size-10 text-white  cursor-pointer">
+        <div id="mobile_btn" class="z-50 sm:hidden">
+          <!-- Hamburger -->
+          <svg id="openIcon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+            class="size-10 text-white">
             <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5M12 17.25h8.25" />
+          </svg>
+
+          <!-- Close -->
+          <svg id="closeIcon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+            class="size-10 text-white hidden">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12" />
           </svg>
 
         </div>
@@ -445,6 +455,11 @@
       <small class="pt-8 text-paragraphColor">All right reserved @Fitness 2026</small>
     </div>
   </footer>
+
+
+  <!-- Link Javascript -->
+  <script src="./Js/seript.js"></script>
+
 
 
 </body>
